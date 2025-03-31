@@ -1,3 +1,9 @@
+###############################################################################################
+# Thiago Passamani <thiagopassamani@gmail.com>
+# Script: Cria usuário conta administrador localmente e caso exista, será alterada a senha.
+# Melhoria futura enviar por e-mail e gerar script para AD GPO.
+###############################################################################################
+
 # Define o comprimento da senha
 [int]$PasswordLenght = "12"
 
