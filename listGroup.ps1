@@ -1,0 +1,1 @@
+Get-ADGroupMember -Identity grp-vpn-novaforma | Get-ADUser -Properties DisplayName,EmailAddress | Select Name,DisplayName,EmailAddress,SAMAccountName | Export-CSV -Path c:\Tools\VPN.csv -NoTypeInformation
